@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
         
         primarySwatch: Colors.blue,
       ),
-      home: MyHomePage(title: 'Demo  git'),
+      home: MyHomePage(title: 'Demo   de git muy importante'),
     );
   }
 }
@@ -58,7 +58,7 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Text(
-              'Usted tieme este numero de items digitados',
+              'Usted tieme este numero de items digitados se mostraran',
             ),
             Text(
               '$_counter',
@@ -70,7 +70,7 @@ class _MyHomePageState extends State<MyHomePage> {
       floatingActionButton: FloatingActionButton(
         onPressed: _incrementCounter,
         tooltip: 'Incrementos',
-        child: Icon(Icons.add),
+        child: Icon(Icons.access_time),
       ), // This trailing comma makes auto-formatting nicer for build methods.
     );
   }
