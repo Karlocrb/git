@@ -21,6 +21,7 @@ class MyHomePage extends StatefulWidget {
   MyHomePage({Key key, this.title}) : super(key: key);
 
   final String title;
+  String git1;
 
   @override
   _MyHomePageState createState() => _MyHomePageState();
@@ -57,7 +58,7 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Text(
-              'Usete tieme este numero de items',
+              'Usted tieme este numero de items digitados',
             ),
             Text(
               '$_counter',
@@ -68,7 +69,7 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: _incrementCounter,
-        tooltip: 'Incremento',
+        tooltip: 'Incrementos',
         child: Icon(Icons.add),
       ), // This trailing comma makes auto-formatting nicer for build methods.
     );
